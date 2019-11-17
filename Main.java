@@ -10,7 +10,7 @@ class Main{
         int size = myObj.nextInt();
         int[] numbers = new int[size];
         int i=0;
-        while(myObj.hasNext() && i<size){
+        while(myObj.hasNext() && i<size-1){
             numbers[i]=myObj.nextInt();
             i++;
         }
